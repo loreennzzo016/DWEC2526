@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Interactiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Calculadora</h2>
+    <label>Operando 1: <input id="op1" type="number"></label><br>
+    <label>Operando 2: <input id="op2" type="number"></label><br>
+    <div id="resultado">Resultado:</div>
+    <div class="botones">
+      <button onclick="calcular('+')">+</button>
+      <button onclick="calcular('-')">-</button>
+      <button onclick="calcular('*')">×</button>
+      <button onclick="calcular('/')">÷</button>
+      <button onclick="borrarLog()">Borrar Log</button>
+    </div>
+    <div id="log"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
