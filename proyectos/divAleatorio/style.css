@@ -1,0 +1,30 @@
+body {
+  transition: background-color 0.5s ease;
+}
+
+.rojo {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  margin: 20px;
+}
+
+/* Efecto al hacer clic */
+.rojo:active {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
