@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.fila {
+    margin-bottom: 15px;
+}
+
+.boton {
+    width: 80px;
+    height: 80px;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.colorQ { background-color: red; }
+.colorW { background-color: orange; }
+.colorE { background-color: yellow; color: black; }
+.colorR { background-color: green; }
+.colorT { background-color: blue; }
+.colorY { background-color: purple; }
+.colorA { background-color: pink; color: black; }
+.colorS { background-color: cyan; color: black; }
+.colorD { background-color: lime; color: black; }
+.colorF { background-color: magenta; }
+.colorG { background-color: brown; }
+.colorZ { background-color: gray; }
+.colorX { background-color: silver; color: black; }
+.colorC { background-color: gold; color: black; }
+.colorV { background-color: teal; }
+
+.pulsado {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+#coordenadas {
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#info {
+    margin-top: 10px;
+    color: #666;
+}

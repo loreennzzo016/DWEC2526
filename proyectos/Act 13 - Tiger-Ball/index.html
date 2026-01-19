@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tiger Ball Interactivo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="panel">
+    <form id="formulario" onsubmit="return moverBola();">
+      <label for="izquierda">Izquierda (px):</label>
+      <input type="number" id="izquierda" min="0" required>
+
+      <label for="arriba">Arriba (px):</label>
+      <input type="number" id="arriba" min="0" required>
+
+      <button type="submit">Mover Bola</button>
+    </form>
+    <p id="mensaje"></p>
+  </div>
+
+  <div id="escenario">
+    <div id="bola">
+      <img src="bola.png" alt="Tiger Ball">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
