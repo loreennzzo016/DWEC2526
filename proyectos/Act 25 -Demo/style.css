@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 40px;
+}
+
+.semaforo {
+  width: 100px;
+  padding: 20px;
+  background: black;
+  border-radius: 20px;
+  margin: 0 auto 20px auto;
+}
+
+.luz {
+  width: 60px;
+  height: 60px;
+  background: grey;
+  border-radius: 50%;
+  margin: 10px auto;
+}
