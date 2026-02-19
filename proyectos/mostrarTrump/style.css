@@ -1,0 +1,12 @@
+#foto {
+  width: 300px;
+  height: 200px;
+  background-color: lightgreen;
+  visibility: hidden;
+}
+
+#miElemento {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}

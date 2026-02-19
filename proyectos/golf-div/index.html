@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tiger Golf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Tiger Golf</h1>
+
+    <form class="controls" onsubmit="event.preventDefault(); golpear();">
+      <input type="number" id="ancho" placeholder="Fuerza X" min="0" max="560" required>
+      <input type="number" id="alto" placeholder="Fuerza Y" min="0" max="360" required>
+      <button type="submit">Golpear</button>
+    </form>
+
+    <section id="campo">
+      <div id="hoyo" aria-label="Hoyo"></div>
+      <div id="bola" aria-label="Bola de golf"></div>
+    </section>
+
+    <p id="mensaje" role="status"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

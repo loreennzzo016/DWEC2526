@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.contenedor {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #f9e213;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dados {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.dado {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #aaa;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 5px;
+}
+
+.punto {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border-radius: 50%;
+  justify-self: center;
+  align-self: center;
+}
+
+.numero {
+  position: absolute;
+  bottom: 4px;
+  right: 6px;
+  font-size: 0.8rem;
+  color: #f9e213;
+  font-weight: bold;
+}
