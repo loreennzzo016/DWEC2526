@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List - Tema 6</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        
+        <div class="form-group">
+            <input type="text" id="nombreTarea" placeholder="Nombre de la tarea...">
+        </div>
+        <div class="form-group">
+            <input type="text" id="descripcionTarea" placeholder="Descripción de la tarea...">
+        </div>
+        <div class="form-group">
+            <input type="date" id="fechaTarea">
+        </div>
+        <div class="form-group">
+            <button onclick="todo.agregar()">Crear Tarea</button>
+            <button onclick="todo.eliminarTodas()" class="btn-eliminar-todas">Eliminar Todas</button>
+        </div>
+
+        <h2>Mis Tareas</h2>
+        <ul id="listaTareas"></ul>
+    </div>
+
+</body>
+</html>
