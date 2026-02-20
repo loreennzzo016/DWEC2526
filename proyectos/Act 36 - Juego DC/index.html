@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DC vs Marvel - Combate POO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>DC vs Marvel - Sistema de Combate</h1>
+
+    <div id="arena">
+        <div class="card">
+            <h2 id="hero-name"></h2>
+            <p>Vida: <span id="hero-life"></span></p>
+            <button id="hero-attack">Atacar</button>
+            <button id="hero-super">Super Ataque</button>
+        </div>
+
+        <div class="card">
+            <h2 id="villain-name"></h2>
+            <p>Vida: <span id="villain-life"></span></p>
+            <button id="villain-attack">Contraatacar</button>
+            <button id="villain-teleport">Teletransportarse</button>
+        </div>
+    </div>
+
+    <div id="log"></div>
+
+    <!-- IMPORTANTE: el script SIEMPRE al final -->
+    <script src="script.js"></script>
+</body>
+</html>

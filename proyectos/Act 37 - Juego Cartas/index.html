@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combate por Turnos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body id="cuerpohtml">
+    <img src="logo.png" alt="Batalla Héroe vs Villano" class="logo">
+
+    <div id="container">
+        <div id="zona-heroe">
+            <h2>HEROE</h2>
+            <div id="carta-heroe" class="box">
+                <img id="heroe-img" src="" alt="Foto del héroe" class="foto-personaje">
+                <p id="heroe-nombre">Cargando...</p>
+                <p>Vida: <span id="heroe-vida">0</span></p>
+                <div id="heroe-ataques" class="ataques"></div>
+            </div>
+        </div>
+
+        <div class="vs">VS</div>
+
+        <div id="zona-villano">
+            <h2>VILLANO</h2>
+            <div id="carta-villano" class="box">
+                <img id="villano-img" src="" alt="Foto del villano" class="foto-personaje">
+                <p id="villano-nombre">Cargando...</p>
+                <p>Vida: <span id="villano-vida">0</span></p>
+                <div id="villano-ataques" class="ataques"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="controles">
+        <button id="btn-reiniciar">Reiniciar Combate</button>
+    </div>
+
+    <div id="mensajes-juego"></div>
+
+</body>
+</html>
